@@ -1,0 +1,46 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  background: url(./assets/images/background-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(275, 100%, 97%);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.answer {
+  display: none;
+}
+
+p {
+  font-weight: 600;
+  margin: 0;
+}
+
+.action:hover {
+  cursor: pointer;
+  color: #ad28eb;
+}
+
+span {
+  opacity: 0.8;
+}
+
+.toggleBtn {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+}
+
+.plus {
+  content: url("./assets/images/icon-plus.svg");
+}
+
+.minus {
+  content: url("./assets/images/icon-minus.svg");
+}
